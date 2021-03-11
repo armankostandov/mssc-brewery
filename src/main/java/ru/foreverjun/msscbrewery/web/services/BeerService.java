@@ -5,5 +5,5 @@ import ru.foreverjun.msscbrewery.web.model.BeerDto;
 import java.util.UUID;
 
 public interface BeerService {
-    BeerDto getBeerByid(UUID beerId);
+    BeerDto getBeerById(UUID beerId);
 }
