@@ -4,9 +4,8 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.foreverjun.msscbrewery.web.model.BeerDto;
 import ru.foreverjun.msscbrewery.web.model.CustomerDto;
-import ru.foreverjun.msscbrewery.web.services.CustomerService;
+import ru.foreverjun.msscbrewery.services.CustomerService;
 
 import java.util.UUID;
 

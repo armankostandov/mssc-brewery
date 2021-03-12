@@ -1,4 +1,4 @@
-package ru.foreverjun.msscbrewery.web.services;
+package ru.foreverjun.msscbrewery.services;
 
 import ru.foreverjun.msscbrewery.web.model.BeerDto;
 
