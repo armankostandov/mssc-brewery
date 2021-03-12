@@ -1,6 +1,10 @@
 package ru.foreverjun.msscbrewery.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import ru.foreverjun.msscbrewery.web.services.BeerService;
 import ru.foreverjun.msscbrewery.web.model.BeerDto;
 import org.junit.Before;
